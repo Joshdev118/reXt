@@ -19,12 +19,30 @@
       "command": "reXt.annotate",
       "title": "Code Annotate",
       "icon": "$(comment)"
+    },
+    {
+      "command": "reXt.showCodeReview",
+      "title": "Code Review panel",
+      "icon": "$(file-code)"
+    },
+    {
+      "command": "reXt.clearAnnotation",
+      "title": "Clear Annotations",
+      "icon": "$(trash)"
     }
   ],
   "menus": {
     "editor/title": [
       {
         "command": "reXt.annotate",
+        "group": "navigation"
+      },
+      {
+        "command": "reXt.clearAnnotation",
+        "group": "navigation"
+      },
+      {
+        "command": "reXt.showCodeReview",
         "group": "navigation"
       }
     ]
